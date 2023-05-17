@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing-page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="landing-page">
+      <h1 class="learn-network">LEARN - NETWORK - GROW</h1>
+      <h2 class="join-challenges-collaborate">
+        Join challenges, collaborate with others & showcase your skills to level
+        up your professional profile!
+      </h2>
+      <button class="button" id="button"></button>
+      <img
+        class="project-management-2-icon"
+        alt=""
+        src="images/image2.png"
+      />
+
+      <img class="working-1-icon" alt="" src="images/image1.png" />
+
+      <label class="join-now" id="jOINNOW">JOIN NOW!</label>
+      <div class="streamlineinterface-award-hal2">
+        <img class="vector-icon2" alt="" src="images/logopurple.png" />
+
+        <b class="learnconnect2">LearnConnect+</b>
+      </div>
+    </div>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "sign.html";
+        });
+      }
+      
+      var jOINNOW = document.getElementById("jOINNOW");
+      if (jOINNOW) {
+        jOINNOW.addEventListener("click", function (e) {
+          window.location.href = "sign.html";
+        });
+      }
+      </script>
+  </body>
+</html>
